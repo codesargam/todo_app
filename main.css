@@ -3,11 +3,11 @@
 	--dark: #374151;
 	--darker: #1F2937;
 	--darkest: #111827;
-	--grey: #6B7280;
+	--grey: #1e2024;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
 	--light: #EEE;
-  --sargam: black;
+  --sargam: rgb(34, 50, 38);
 
 }
 
@@ -34,7 +34,7 @@ header {
 
 header h1{ 
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-weight: 500;
 	color: var(--grey);
 	margin-bottom: 1rem;
 }
@@ -61,7 +61,7 @@ input, button {
 }
 
 #new-task-input::placeholder {
-	color: var(--grey);
+	color: var(--light);
 }
 
 #new-task-submit {
@@ -96,7 +96,7 @@ main {
 
 .task-list h2 {
 	font-size: 1.5rem;
-	font-weight: 300;
+	font-weight: 500;
 	color: var(--grey);
 	margin-bottom: 1rem;
 }
@@ -104,7 +104,7 @@ main {
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--darkest);
+	background-color: var(--darker);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
