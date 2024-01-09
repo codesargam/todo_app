@@ -146,6 +146,7 @@ main {
 
 .task .actions button:active {
 	opacity: 0.6;
+	background-color: #EC4899;
 }
 
 .task .actions .edit {
